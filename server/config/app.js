@@ -49,11 +49,11 @@ app.use(function(req, res, next) {
 
 // error handler
 app.use(function(err, req, res, next) {
-  console.log('>>>>>>>>>>>>>>>>>>>> ')
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 
+  // configure meaningful error message
   if(err.status == 404){
     res.locals.message = 'Page Not Found'
   } else if(err.status == 500){

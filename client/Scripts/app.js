@@ -1,3 +1,10 @@
+/**
+ * File name: app.js
+ * Student name: Jane Aarthy Joseph
+ * Student ID: 301160297
+ * Date: 2022-03-03
+ * WebAppName: MyBookStore
+ */
 /* custom JS goes here */
 
 /* pagination code from http://www.bootply.com/lxa0FF9yhw */
